@@ -1,9 +1,9 @@
 # CheckPwnedList
 A modification of a script that takes a single email, or a file with multiple emails and checks the have i been pwned site.
 
-Improvments: Updated headers.  The output file is a Tab Delimited file that can be opened in Excel or any similar software.
+Improvments from original: Updated headers.  The output file is a Tab Delimited file that can be opened in Excel or any similar software.
 
-# checkpwnedemails
+
 This python script will check if a single email address, or a text file listing several email addresses, has been compromised in a data breach (pwned).  This script uses the haveibeenpwned API to compare the email address(es), provided by the user, to the haveibeenpwned database to check if they have been pwned or not.
 
 
