@@ -26,3 +26,8 @@ For more options:
 ```
 python checkpwnedemails.py -h
 ```
+
+
+To convert to proper csv for excel replace tabs with ", " (no quotes)
+
+vim: %s/\<hit tab key>/,\<hit spacebar >/
