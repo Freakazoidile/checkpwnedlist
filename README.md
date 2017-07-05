@@ -30,9 +30,9 @@ python checkpwnedemails.py -h
 
 To convert to proper csv for excel 2 steps required.
 
-1. in vim: %s/\\',\\ /\\ /g
+1. in vim: `%s/\\',\\ /\\ /g`
 
 replace <hit tab key> by physically deleting that string and pushing the tab button
 
-2.in vim: %s/\\<hit tab key>/,\\ /g      
+2.in vim: `%s/\\<hit tab key>/,\\ /g`     
 
